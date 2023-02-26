@@ -10,9 +10,9 @@
   }
   
   header {
-    background-color: #f57c00;
+    background-color: #36A2F1;
     color: #fff;
-    padding: 10px;
+    padding: 20px;
   }
   
   nav ul {
@@ -26,12 +26,20 @@
   nav li {
     margin-left: 10px;
   }
-  
+
+  .nav_logo{
+    text-align: left;
+  } 
+
   nav a {
     color: #fff;
     text-decoration: none;
   }
   
+  nav p {
+    justify-content: flex-start;
+  }
+
   main {
     max-width: 800px;
     margin: 0 auto;
@@ -62,7 +70,7 @@ button[type="submit"] {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #f57c00;
+    background-color: #36A2F1;
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
@@ -108,7 +116,7 @@ button[type="submit"]:hover {
   .books h2 {
     font-size: 1.2rem;
     margin-bottom: 5px;
-    color:#f57c00;
+    color:#36A2F1;
 }
 
 .books p {
